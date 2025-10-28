@@ -1,150 +1,151 @@
-# AllianceDAO NFT Transaction Tracker Documentation
+# Alliance DAO Transaction Explorer - Modular Version
 
-Complete technical documentation for identifying and tracking all 25 transaction types for the AllianceDAO NFT collection on Terra blockchain.
+## 📁 File Structure
+
+```
+alliance-dao-explorer/
+├── index.html              Main explorer page
+├── config-builder.html     Config builder tool
+├── js/
+│   ├── config.js          Configuration & constants
+│   └── app.js             Main application logic (4,700 lines)
+└── css/
+    └── style.css          All styles
+```
+
+## 🚀 Quick Start
+
+### Local Development:
+1. Open `index.html` in browser, OR
+2. Use a local server:
+   ```bash
+   python -m http.server 8000
+   # Open http://localhost:8000
+   ```
+
+### Deployment to GitHub:
+1. Upload all files maintaining folder structure
+2. Enable GitHub Pages
+3. Done!
+
+## 📊 File Sizes
+
+- `index.html`: 464 lines (HTML structure)
+- `js/app.js`: 4,701 lines (all logic)
+- `js/config.js`: 53 lines (configuration)
+- `css/style.css`: 559 lines (all styles)
+
+## ✨ What's Modular
+
+### ✅ Separated:
+- **CSS** - All styles in external file
+- **Config** - All URLs and constants in config.js
+- **HTML** - Clean structure without embedded styles/scripts
+
+### 📦 Still Combined:
+- **JavaScript** - All in app.js (can split further later)
+
+## 🔧 Configuration
+
+Edit `js/config.js` to change:
+- RPC/LCD endpoints
+- Contract addresses
+- Data source URLs
+- GitHub repo paths
+
+**Current repo:** `https://github.com/defipatriot/transaction-tracker`
+
+## 🎯 Next Steps (Optional)
+
+### Further Modularization:
+
+Split `app.js` into:
+```
+js/
+├── config.js              ✅ Done
+├── data-loader.js         Load JSON, address book, NFTs
+├── transaction-processor.js  Classify & process transactions
+├── export.js              Export functions
+├── ui-render.js           Table rendering
+├── ui-interactions.js     Modals, filters, clicks
+├── utils.js               Helper functions
+└── app.js                 Main initialization
+```
+
+**Benefit:** Easier to find and edit specific features  
+**Trade-off:** More files to manage
+
+## 📝 Making Changes
+
+### To update styles:
+1. Edit `css/style.css`
+2. Refresh browser
+
+### To update config:
+1. Edit `js/config.js`
+2. Refresh browser
+
+### To update logic:
+1. Edit `js/app.js`
+2. Find function by searching
+3. Refresh browser
+
+## 🐛 Debugging
+
+### If explorer doesn't load:
+1. Open browser console (F12)
+2. Check for errors
+3. Verify all files loaded:
+   - `config.js`
+   - `app.js`
+   - `style.css`
+
+### If styles missing:
+- Check `css/style.css` path is correct
+- Make sure folder structure is maintained
+
+### If features broken:
+- Check browser console for JavaScript errors
+- Verify CONFIG is loaded before app.js
+
+## ✅ Features
+
+All features from V4 are included:
+- ✅ Load from GitHub JSON
+- ✅ Auto-Scan blockchain
+- ✅ Export Tx Summary JSON (enhanced)
+- ✅ Export Raw Data JSON
+- ✅ Human-readable addresses
+- ✅ Token logos with hover names
+- ✅ Failed claims display
+- ✅ Raw data on-demand loading
+- ✅ NFT thumbnails & modals
+- ✅ Alliance claim details
+- ✅ Column visibility controls
+- ✅ Event filters
+- ✅ Month navigation
 
 ## 📚 Documentation
 
-### Core Documentation
-1. **[Overview & Design Principles](overview-and-principles.md)**
-   - Project context and key contracts
-   - Critical design principles for scalability
-   - Multi-NFT handling patterns
-   - Event type categories
+See main docs in repo:
+- `V4-COMPLETE-FEATURES.md` - Feature list
+- `JSON-STRUCTURE-GUIDE.md` - JSON format
+- `VISUAL-GUIDE.md` - UI examples
 
-2. **[Event Catalog Part 1 (Events 1-13)](event-catalog_part_1-13.md)**
-   - ALLY Rewards Claim
-   - NFT Break
-   - DAODao Staking/Unstaking
-   - BBL Marketplace Events
-   - Boost Marketplace Events
+## 🔗 URLs Updated
 
-3. **[Event Catalog Part 2 (Events 14-25)](event-catalog_part_14-25.md)**
-   - Boost Tools (Transfer, Stake)
-   - Enterprise Unstake
-   - NFT Switch Batch Transfers
-   - NFT Switch OTC (3-step process)
-   - P2P Transfers
+All URLs now point to:
+`https://raw.githubusercontent.com/defipatriot/transaction-tracker/main/...`
 
-4. **[Address Directory & Pattern Matching](address-directory_pattern-matching.md)**
-   - Complete contract address directory
-   - Master transaction classifier code
-   - Fee extraction logic
-   - Validation patterns
+(Updated from old repo name: `transaction-tracker_docs`)
 
-5. **[Database Schemas & Analytics](database-schemas_analytics.md)**
-   - PostgreSQL database schemas
-   - Analytics views and queries
-   - Key performance indicators
-   - Reference transaction hashes
+## 💡 Tips
 
-## 🎯 Quick Stats
+1. **Editing is easier** - Find CSS/config quickly
+2. **Debugging is cleaner** - Browser dev tools show which file has errors
+3. **Git diffs are better** - Changes in CSS don't show as HTML changes
+4. **Caching works better** - Browser can cache CSS/JS separately
 
-- **Total Event Types:** 25
-- **Platforms Covered:** BBL, Boost, NFT Switch, DAODao
-- **Research Period:** October 2-16, 2025
-- **Version:** 1.0
+## 🎉 Ready to Use!
 
-## 🔍 What This Covers
-
-### Protocol Events
-- Daily ALLY rewards claims
-- NFT breaks (reward redemption)
-- Enterprise DAO legacy cleanup
-
-### Governance
-- DAODao staking (2-step process)
-- DAODao unstaking (7-day unbonding)
-- DAODao claim NFTs
-
-### Marketplaces
-- **BBL:** Listings, sales, cancellations, collection offers
-- **Boost:** Listings, sales, cancellations (multi-token support)
-- **NFT Switch:** Batch transfers, OTC trades (3-step process)
-
-### Tools & Transfers
-- Boost convenience tools
-- Manual transfers
-- Batch operations
-
-## 💰 Fee Structures
-
-| Platform | Protocol Fee | DAO Royalty | Total Fees |
-|----------|--------------|-------------|------------|
-| BBL | 2% | 5% | 7% |
-| Boost | 2% | 5% | 7% |
-| NFT Switch OTC | 4% (2% each side) | 0% | 4% |
-
-## 🚀 Usage
-
-This documentation enables you to:
-- ✅ Build blockchain indexers
-- ✅ Create analytics dashboards
-- ✅ Track DAO revenue (5% royalties)
-- ✅ Monitor NFT supply and holders
-- ✅ Analyze marketplace activity
-- ✅ Track staking metrics
-
-## 📊 Key Design Principles
-
-1. **Always Handle Arrays** - All NFT fields use arrays for scalability
-2. **Extract from Events** - Some data only exists in events, not messages
-3. **Platform Hierarchy** - Contract → Message → Action → Memo
-4. **Fee Tracking** - Parse multiple transfer events for sales
-5. **Deduplication** - Same NFT can appear multiple times in events
-
-## 🔗 Integration Examples
-
-### Website Embed
-```html
-<iframe src="https://github.com/defipatriot/nft_contract_transaction_tracker/blob/main/overview-and-principles.md" 
-        width="100%" height="600"></iframe>
-```
-
-### Direct Links
-Link to specific sections from your website:
-- [How to identify transactions](address-directory_pattern-matching.md#master-transaction-classifier)
-- [Database setup](database-schemas_analytics.md#master-tables)
-- [Fee structures](event-catalog_part_14-25.md#fee-structures-comparison)
-
-## 📖 Methodology
-
-All patterns were derived from **real on-chain transactions** and validated across multiple examples. Each event type includes:
-- Reference transaction hash
-- Primary identifiers
-- Data extraction patterns
-- Scalability notes
-- Code examples
-
-## 🤝 Contributing
-
-Found a new transaction pattern? Please:
-1. Document the transaction hash
-2. Identify the pattern
-3. Submit a pull request with updates
-
-## 📜 License
-
-[Your License Here]
-
-## 🔗 Links
-
-- **Website:** [Your Website]
-- **Discord:** [Your Discord]
-- **Twitter:** [Your Twitter]
-
----
-
-**Built with ❤️ for the AllianceDAO community**
-```
-
----
-
-### 2. Add LICENSE File
-
-Create `LICENSE` (if needed):
-```
-MIT License
-
-Copyright (c) 2025 [Your Name/Organization]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
+Upload to GitHub and you're done. Everything works exactly like the all-in-one version, just cleaner!
