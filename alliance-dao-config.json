@@ -1,0 +1,429 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-27",
+  "members": {
+    "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw": {
+      "handle": "DeFiPatriot",
+      "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+    },
+    "terra13qjxhnw98lm36rxc9yjakkmulhpv7zctdc5zlz": {
+      "handle": "4719",
+      "address": "terra13qjxhnw98lm36rxc9yjakkmulhpv7zctdc5zlz"
+    },
+    "terra1j3ynfcuzl9e5y33ts9lcfxcteh7xg2a3zzc7gm": {
+      "handle": "Crypto007",
+      "address": "terra1j3ynfcuzl9e5y33ts9lcfxcteh7xg2a3zzc7gm"
+    },
+    "terra1tgvlyhnqyxgwuw07h986jtnjhkcz72es3u33a9": {
+      "handle": "pixeLionsDAO",
+      "address": "terra1tgvlyhnqyxgwuw07h986jtnjhkcz72es3u33a9"
+    },
+    "terra1v0k9r7csmknkcafvkem0kt4ul65qzpykjy9mpm": {
+      "handle": "WooX_Bull",
+      "address": "terra1v0k9r7csmknkcafvkem0kt4ul65qzpykjy9mpm"
+    },
+    "terra1q0tfewa60enuu8utyjs9w7um58njhd7fn2p7d3": {
+      "handle": "SpaceToadCapital",
+      "address": "terra1q0tfewa60enuu8utyjs9w7um58njhd7fn2p7d3"
+    },
+    "terra1gpqalumaqz97h0nqyqtxf85cwte37l6hps03mt": {
+      "handle": "NoPeace4u",
+      "address": "terra1gpqalumaqz97h0nqyqtxf85cwte37l6hps03mt"
+    },
+    "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8": {
+      "handle": "DigitalCowboy",
+      "address": "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8"
+    },
+    "terra16vnmejq27c3s9ut4mnlrwfq3vlpjmsd3xs3w60": {
+      "handle": "Hanuman",
+      "address": "terra16vnmejq27c3s9ut4mnlrwfq3vlpjmsd3xs3w60"
+    },
+    "terra14xhypjkmweanv5f4ay7n8zvvzug8nfmnpahu7y": {
+      "handle": "Lap",
+      "address": "terra14xhypjkmweanv5f4ay7n8zvvzug8nfmnpahu7y"
+    },
+    "terra16d6pzemu64ckee4l9t2ryrpjdgdrmxzd5jaajp": {
+      "handle": "LlewynBonisagus",
+      "address": "terra16d6pzemu64ckee4l9t2ryrpjdgdrmxzd5jaajp"
+    },
+    "terra12h0hympmykpt8j5f05z6mxwsa0wam3d5vx6hx7": {
+      "handle": "fastfish343",
+      "address": "terra12h0hympmykpt8j5f05z6mxwsa0wam3d5vx6hx7"
+    },
+    "terra1m753uer4mzysev8h359cxpq86uvr0rzhkfdl7w": {
+      "handle": "Anon420",
+      "address": "terra1m753uer4mzysev8h359cxpq86uvr0rzhkfdl7w"
+    },
+    "terra1zstf4e0au48fy56kkztsfea2m4fl4nd040etn8": {
+      "handle": "Dusky",
+      "address": "terra1zstf4e0au48fy56kkztsfea2m4fl4nd040etn8"
+    },
+    "terra1k6424kpxl2ax6c58lutrz2sdkllyuq9dafq8f8": {
+      "handle": "Nick74",
+      "address": "terra1k6424kpxl2ax6c58lutrz2sdkllyuq9dafq8f8"
+    },
+    "terra1gnuzu4cp7wh900rg0xgvkeq5rpaluw6srv6l0k": {
+      "handle": "Lim",
+      "address": "terra1gnuzu4cp7wh900rg0xgvkeq5rpaluw6srv6l0k"
+    },
+    "terra1je9hqw9m8guxwny2qd6j802cqafp5av8vq4pf2": {
+      "handle": "mobile_d",
+      "address": "terra1je9hqw9m8guxwny2qd6j802cqafp5av8vq4pf2"
+    },
+    "terra1mq7zc8xjc5mye7vcpqfjwcchs9zsf45pxtwyre": {
+      "handle": "FROST_CR",
+      "address": "terra1mq7zc8xjc5mye7vcpqfjwcchs9zsf45pxtwyre"
+    },
+    "terra1n75apcsmzejuwu6qn2zath5maaw83d0s4gmx4j": {
+      "handle": "rashem.terra",
+      "address": "terra1n75apcsmzejuwu6qn2zath5maaw83d0s4gmx4j"
+    },
+    "terra1p3x7fcpjqhenwu8x3q0lxpfhlecd8rs0yepn5k": {
+      "handle": "ManTera",
+      "address": "terra1p3x7fcpjqhenwu8x3q0lxpfhlecd8rs0yepn5k"
+    },
+    "terra1ur6629jtzrk7fr94vlg9dythm5nnukay7m00sv": {
+      "handle": "mka_6",
+      "address": "terra1ur6629jtzrk7fr94vlg9dythm5nnukay7m00sv"
+    },
+    "terra1w7at930k5t3axzgu94txh8lpwftp7nvm3x5l9k": {
+      "handle": "Elisa",
+      "address": "terra1w7at930k5t3axzgu94txh8lpwftp7nvm3x5l9k"
+    },
+    "terra1w88tmp6p9nf9sg4fzlr9dqxx7y4xjwfwgt4urz": {
+      "handle": "marcus9490",
+      "address": "terra1w88tmp6p9nf9sg4fzlr9dqxx7y4xjwfwgt4urz"
+    },
+    "terra10w4r9qgtslmk956nshl8f99srwkrpavhd6n6vq": {
+      "handle": "cris84mon_DAO",
+      "address": "terra10w4r9qgtslmk956nshl8f99srwkrpavhd6n6vq"
+    },
+    "terra17lapk5p993ugazmv2uuc2wdrn3qveqlh7hklpj": {
+      "handle": "inowhere",
+      "address": "terra17lapk5p993ugazmv2uuc2wdrn3qveqlh7hklpj"
+    },
+    "terra1caqnsrs6tm3rmvxm477t7apvxqlz02qx6nr5rl": {
+      "handle": "sfbandit",
+      "address": "terra1caqnsrs6tm3rmvxm477t7apvxqlz02qx6nr5rl"
+    },
+    "terra1uaxwcjuswy60cvr2lknks2j6kpwpqqhnuxlvu3": {
+      "handle": "datam",
+      "address": "terra1uaxwcjuswy60cvr2lknks2j6kpwpqqhnuxlvu3"
+    },
+    "terra1vwpm2gzztvt847hh669w8w2mlvwmjdq2dzwpry": {
+      "handle": "Cookso",
+      "address": "terra1vwpm2gzztvt847hh669w8w2mlvwmjdq2dzwpry"
+    },
+    "terra1xwn3xt4u3yxcn7yd37qphz6ktq5kua2kehsfx5": {
+      "handle": "MuunaLUNA",
+      "address": "terra1xwn3xt4u3yxcn7yd37qphz6ktq5kua2kehsfx5"
+    },
+    "terra1y5mneh2gamuztzza42pdd89u47sdx9kqdy022l": {
+      "handle": "luckystan777",
+      "address": "terra1y5mneh2gamuztzza42pdd89u47sdx9kqdy022l"
+    },
+    "terra10c6l9mm0vzjgh885yx5geks6azfulj3y7pyrml": {
+      "handle": "bancuhcrypto",
+      "address": "terra10c6l9mm0vzjgh885yx5geks6azfulj3y7pyrml"
+    },
+    "terra1247xf3nz6atlsmxdz43h37c83tcdnuknc80f48": {
+      "handle": "Dizzle_",
+      "address": "terra1247xf3nz6atlsmxdz43h37c83tcdnuknc80f48"
+    },
+    "terra126pzz4ed3r6v65jen9ex6u7ttdv7c0nytl7djf": {
+      "handle": "hterra",
+      "address": "terra126pzz4ed3r6v65jen9ex6u7ttdv7c0nytl7djf"
+    },
+    "terra128qmeave7hlnjj5uxd46jce65wrumkhf0j8ew9": {
+      "handle": "McDope",
+      "address": "terra128qmeave7hlnjj5uxd46jce65wrumkhf0j8ew9"
+    },
+    "terra14gvc6zysjwcxthan290sjhddk365tdkzzn7a53": {
+      "handle": "OG_C",
+      "address": "terra14gvc6zysjwcxthan290sjhddk365tdkzzn7a53"
+    },
+    "terra14vwq8zpr7sh9ajahr0gyhj6at6ha6rmdpecysm": {
+      "handle": "tiltshark",
+      "address": "terra14vwq8zpr7sh9ajahr0gyhj6at6ha6rmdpecysm"
+    },
+    "terra1dr9xlcr5s7dt7apycdxe82g5l66pyh3djad20w": {
+      "handle": "Llewyn #2",
+      "address": "terra1dr9xlcr5s7dt7apycdxe82g5l66pyh3djad20w"
+    },
+    "terra1gp88fnzd4uvk4t5plagz762a29f88qgew3kfa2": {
+      "handle": "MojoStudio",
+      "address": "terra1gp88fnzd4uvk4t5plagz762a29f88qgew3kfa2"
+    },
+    "terra1gszaqmyt9pmhg38cpax3vprccpjuczzp40m35s": {
+      "handle": "makiCGI",
+      "address": "terra1gszaqmyt9pmhg38cpax3vprccpjuczzp40m35s"
+    },
+    "terra1kcpara8gj58huh9yn6dj7rxd764desdsrfppfc": {
+      "handle": "Eddy_W",
+      "address": "terra1kcpara8gj58huh9yn6dj7rxd764desdsrfppfc"
+    },
+    "terra1l0jeppq8v3rt6dxhch5m4ydcmgfmvpxl59mhll": {
+      "handle": "Fci",
+      "address": "terra1l0jeppq8v3rt6dxhch5m4ydcmgfmvpxl59mhll"
+    },
+    "terra1x9jh7pl623jaj8dlt4q53mpmv5mv5nlpzdpxfs": {
+      "handle": "OG_t",
+      "address": "terra1x9jh7pl623jaj8dlt4q53mpmv5mv5nlpzdpxfs"
+    }
+  },
+  "known_addresses": {
+    "platforms": {
+      "terra1ej4cv98e9g2zjefr5auf2nwtq4xl3dm7x0qml58yna2ml2hk595s7gccs9": {
+        "name": "BBL Marketplace",
+        "address": "terra1ej4cv98e9g2zjefr5auf2nwtq4xl3dm7x0qml58yna2ml2hk595s7gccs9",
+        "type": "platform",
+        "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/BBL%20No%20Background.png"
+      },
+      "terra1kj7pasyahtugajx9qud02r5jqaf60mtm7g5v9utr94rmdfftx0vqspf4at": {
+        "name": "Boost Marketplace",
+        "address": "terra1kj7pasyahtugajx9qud02r5jqaf60mtm7g5v9utr94rmdfftx0vqspf4at",
+        "type": "platform",
+        "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/Boost%20Logo.png"
+      },
+      "terra1rppeahhmtvy4fs9xr9zkjrf4xs9ak4ygy62slq": {
+        "name": "Boost Protocol Fee Wallet / Receives 2% marketplace fee",
+        "address": "terra1rppeahhmtvy4fs9xr9zkjrf4xs9ak4ygy62slq",
+        "type": "platform",
+        "logo": null
+      }
+    },
+    "validators": {
+      "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3": {
+        "name": "Ceres Ventures",
+        "address": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/03db8fe622488211ed1790b717daea05_360_360.jpg"
+      },
+      "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0": {
+        "name": "🦁 The Lion DAO",
+        "address": "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/b6bf982ff9bd5e8910e233fcf7f79705_360_360.jpg"
+      },
+      "terravaloper1vrkzjujfds9p8t5g0xety3e3ft4dep02etv9le": {
+        "name": "NFTSwitch.xyz | Delegate for $SOUL Claim Drop",
+        "address": "terravaloper1vrkzjujfds9p8t5g0xety3e3ft4dep02etv9le",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/87b819597dbaf78dad19b84a26d5aa05_360_360.jpg"
+      },
+      "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j": {
+        "name": "ERIS ⚡️ Delegate for claimdrop",
+        "address": "terravaloper1vm5azhvaxeanc7auxh02y8jmxrk8tj93f43e7j",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/aab44128ec6965b3bef1da7925a57e05_360_360.jpg"
+      },
+      "terravaloper1wr0p7dzss74wfmzfqm8r65mk26efg5zhzpm77s": {
+        "name": "BackBone Labs | Delegate for $SOUL Claim Drop",
+        "address": "terravaloper1wr0p7dzss74wfmzfqm8r65mk26efg5zhzpm77s",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/4a309622b5edcd28da92a5555dc9a105_360_360.jpg"
+      },
+      "terravaloper10c04ysz9uznx2mkenuk3j3esjczyqh0j783nzt": {
+        "name": "SCV-Security",
+        "address": "terravaloper10c04ysz9uznx2mkenuk3j3esjczyqh0j783nzt",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/a4d0c0f90c4ced2cf14c029323c76605_360_360.jpg"
+      },
+      "terravaloper13qjxhnw98lm36rxc9yjakkmulhpv7zctdhcl03": {
+        "name": "4719",
+        "address": "terravaloper13qjxhnw98lm36rxc9yjakkmulhpv7zctdhcl03",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/42136f83b5251d482a60bd7f064c9805_360_360.jpg"
+      },
+      "terravaloper13n2fsvfvj28eqvkjejhqlxf3pch3muxkxudacc": {
+        "name": "StakeBin",
+        "address": "terravaloper13n2fsvfvj28eqvkjejhqlxf3pch3muxkxudacc",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/0412870dea3b81d2b28a99dd5cc41305_360_360.jpg"
+      },
+      "terravaloper1hr7svdp2rga9vf3ry95sx7g5wyspgwmg96vqg5": {
+        "name": "PFC - Stake for $SOUL airdrop",
+        "address": "terravaloper1hr7svdp2rga9vf3ry95sx7g5wyspgwmg96vqg5",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/2401784bb3222866eb3ec276722d8305_360_360.jpg"
+      },
+      "terravaloper1htey4gcdcass29vn4dwjcuq58mrvv8ra5pjz4k": {
+        "name": "cosmosrescue",
+        "address": "terravaloper1htey4gcdcass29vn4dwjcuq58mrvv8ra5pjz4k",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/59795e77f751817572853be417ba0305_360_360.jpg"
+      },
+      "terravaloper1cqc26lnatzxvu0z5nd4yx8m4ecllkm7jlakwrw": {
+        "name": "Solid - solid.online",
+        "address": "terravaloper1cqc26lnatzxvu0z5nd4yx8m4ecllkm7jlakwrw",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/218caea364caad6de09c7579f707e505_360_360.jpg"
+      },
+      "terravaloper1mnfavz2tcq6shdfph5azt7gwt6va2s6weqdnkq": {
+        "name": "BIG Labs",
+        "address": "terravaloper1mnfavz2tcq6shdfph5azt7gwt6va2s6weqdnkq",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/e818336239860fd9dbcb6ccf8f6f7105_360_360.jpg"
+      },
+      "terravaloper1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcfs5wf": {
+        "name": "Orbital Command",
+        "address": "terravaloper1lelhxdzwn9ddecv6sv0kcxj5tguurxnzcfs5wf",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/5575ed509a4d4d395987000cf36a5b05_360_360.jpg"
+      },
+      "terravaloper1ge3vqn6cjkk2xkfwpg5ussjwxvahs2f6at87yp": {
+        "name": "coinhall.org",
+        "address": "terravaloper1ge3vqn6cjkk2xkfwpg5ussjwxvahs2f6at87yp",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/d56a8afc0d99e63498f82e7b89d89b05_360_360.jpg"
+      },
+      "terravaloper188e99yz54744uhr8xjfxmmplhnuw75xea55zfp": {
+        "name": "Smart Stake",
+        "address": "terravaloper188e99yz54744uhr8xjfxmmplhnuw75xea55zfp",
+        "type": "validator",
+        "logo": null
+      },
+      "terravaloper120ppepaj2lh5vreadx42wnjjznh55vvktp78wk": {
+        "name": "Allnodes",
+        "address": "terravaloper120ppepaj2lh5vreadx42wnjjznh55vvktp78wk",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/c1bfe4c1d4f6c8f8d66baa152d50e805_360_360.jpg"
+      },
+      "terravaloper1564j3fq8p8np4yhh4lytnftz33japc03wn40kg": {
+        "name": "Cosmostation",
+        "address": "terravaloper1564j3fq8p8np4yhh4lytnftz33japc03wn40kg",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/909034c1d36c1d1f3e9191f668007805_360_360.jpeg"
+      },
+      "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf": {
+        "name": "Galactic Punks Validator",
+        "address": "terravaloper15lsftv92eyssjwkh2393s0nhjc07kryqen2fqf",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/b60df32444818f73398dd8a6d8ec8e05_360_360.jpg"
+      },
+      "terravaloper18vnm040mwk0d6plc60v5m9h2376gkcphknuwzs": {
+        "name": "PRYZM | StakeDrop",
+        "address": "terravaloper18vnm040mwk0d6plc60v5m9h2376gkcphknuwzs",
+        "type": "validator",
+        "logo": "https://s3.amazonaws.com/keybase_processed_uploads/93dfc4e344b5908d72537b3d4ef34a05_360_360.jpg"
+      }
+    },
+    "daos": {
+      "terra1phr9fngjv7a8an4dhmhd0u0f98wazxfnzccqtyheq4zqrrp4fpuqw3apw9": {
+        "name": "The Alliance DAO NFT Contract",
+        "address": "terra1phr9fngjv7a8an4dhmhd0u0f98wazxfnzccqtyheq4zqrrp4fpuqw3apw9",
+        "type": "dao",
+        "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/aDAO%20Logo%20No%20Background.png"
+      },
+      "terra1c57ur376szdv8rtes6sa9nst4k536dynunksu8tx5zu4z5u3am6qmvqx47": {
+        "name": "DAODAO aDAO Staking Contract / Holds staked NFTs for governance",
+        "address": "terra1c57ur376szdv8rtes6sa9nst4k536dynunksu8tx5zu4z5u3am6qmvqx47",
+        "type": "dao",
+        "logo": null
+      },
+      "terra14gv57x9lmuc04jzsmsz5f2heyfxfndey2v8hkkjt7z9p6d7xw35stx69j2": {
+        "name": "DAODAO aDAO Voting Contract / Tracks voting power",
+        "address": "terra14gv57x9lmuc04jzsmsz5f2heyfxfndey2v8hkkjt7z9p6d7xw35stx69j2",
+        "type": "dao",
+        "logo": null
+      },
+      "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm": {
+        "name": "The Alliance DAO Treasury",
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "type": "dao",
+        "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/aDAO%20Logo%20No%20Background.png"
+      }
+    },
+    "contracts": {
+      "terra1e54tcdyulrtslvf79htx4zntqntd4r550cg22sj24r6gfm0anrvq0y8tdv": {
+        "name": "Boost Enterprise Tool",
+        "address": "terra1e54tcdyulrtslvf79htx4zntqntd4r550cg22sj24r6gfm0anrvq0y8tdv",
+        "type": "contract",
+        "logo": null
+      },
+      "terra1wm7rag4feqm2w3qfj85gsmn3g38mlxtfvu7zmsydnd8ez3dlkdks0n8yk0": {
+        "name": "NFT Switch OTC Contract",
+        "address": "terra1wm7rag4feqm2w3qfj85gsmn3g38mlxtfvu7zmsydnd8ez3dlkdks0n8yk0",
+        "type": "contract",
+        "logo": null
+      },
+      "terra1hkqq2sy3dvvgt8sw2h0nfc3nzufa27d3xj69cf": {
+        "name": "NFT Switch Operator / OTC confirmation & escrow",
+        "address": "terra1hkqq2sy3dvvgt8sw2h0nfc3nzufa27d3xj69cf",
+        "type": "contract",
+        "logo": null
+      },
+      "terra1qdpyuvy9cjmelly6cf604ck7srpt040nee9cjy": {
+        "name": "NFT Switch Fee Wallet / Receives 4% OTC fees",
+        "address": "terra1qdpyuvy9cjmelly6cf604ck7srpt040nee9cjy",
+        "type": "contract",
+        "logo": null
+      }
+    }
+  },
+  "tokens": {
+    "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct": {
+      "name": "Eris ampLUNA LSD",
+      "symbol": "ampLUNA",
+      "address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+      "decimals": 6,
+      "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/ampLuna.webp"
+    },
+    "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml": {
+      "name": "BBL bLUNA LSD",
+      "symbol": "bLUNA",
+      "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+      "decimals": 6,
+      "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/bLUNA.webp"
+    },
+    "ibc/8D8A7F7253615E5F76CB6252A1E1BD921D5EDB7BBAAF8913FB1C77FF125D9995": {
+      "name": "Terra Astro",
+      "symbol": "ASTRO",
+      "address": "ibc/8D8A7F7253615E5F76CB6252A1E1BD921D5EDB7BBAAF8913FB1C77FF125D9995",
+      "decimals": 6,
+      "logo": "https://github.com/defipatriot/token_logo/blob/main/Astro.webp"
+    },
+    "uluna": {
+      "name": "Terra LUNA",
+      "symbol": "LUNA",
+      "address": "uluna",
+      "decimals": 6,
+      "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/Luna.webp"
+    },
+    "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB": {
+      "name": "Terra USDC",
+      "symbol": "USDC",
+      "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+      "decimals": 6,
+      "logo": "https://github.com/defipatriot/token_logo/blob/main/usdc.svg"
+    },
+    "terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar": {
+      "name": "Capapult",
+      "symbol": "CAPA",
+      "address": "terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar",
+      "decimals": 6,
+      "logo": "https://github.com/defipatriot/token_logo/blob/main/capa.svg"
+    },
+    "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv": {
+      "name": "Lion DAO ROAR",
+      "symbol": "ROAR",
+      "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+      "decimals": 6,
+      "logo": "https://github.com/defipatriot/token_logo/blob/main/ROAR_LOGO.png"
+    },
+    "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2": {
+      "name": "Terra ATOM",
+      "symbol": "ATOM",
+      "address": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "decimals": 6,
+      "logo": "https://github.com/defipatriot/token_logo/blob/main/atom.svg"
+    },
+    "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB": {
+      "name": "Eureka wBTC",
+      "symbol": "wBTC.atom",
+      "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+      "decimals": 8,
+      "logo": "https://github.com/defipatriot/token_logo/blob/main/wBTC.png"
+    }
+  }
+}
