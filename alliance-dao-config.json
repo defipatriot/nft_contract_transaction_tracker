@@ -177,13 +177,13 @@
         "name": "BBL Marketplace",
         "address": "terra1ej4cv98e9g2zjefr5auf2nwtq4xl3dm7x0qml58yna2ml2hk595s7gccs9",
         "type": "platform",
-        "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/BBL%20No%20Background.png"
+        "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/BBL%20No%20Background.png"
       },
       "terra1kj7pasyahtugajx9qud02r5jqaf60mtm7g5v9utr94rmdfftx0vqspf4at": {
         "name": "Boost Marketplace",
         "address": "terra1kj7pasyahtugajx9qud02r5jqaf60mtm7g5v9utr94rmdfftx0vqspf4at",
         "type": "platform",
-        "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/Boost%20Logo.png"
+        "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/Boost%20Logo.png"
       },
       "terra1rppeahhmtvy4fs9xr9zkjrf4xs9ak4ygy62slq": {
         "name": "Boost Protocol Fee Wallet / Receives 2% marketplace fee",
@@ -313,7 +313,7 @@
         "name": "The Alliance DAO NFT Contract",
         "address": "terra1phr9fngjv7a8an4dhmhd0u0f98wazxfnzccqtyheq4zqrrp4fpuqw3apw9",
         "type": "dao",
-        "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/aDAO%20Logo%20No%20Background.png"
+        "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/aDAO%20Logo%20No%20Background.png"
       },
       "terra1c57ur376szdv8rtes6sa9nst4k536dynunksu8tx5zu4z5u3am6qmvqx47": {
         "name": "DAODAO aDAO Staking Contract / Holds staked NFTs for governance",
@@ -331,7 +331,7 @@
         "name": "The Alliance DAO Treasury",
         "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
         "type": "dao",
-        "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/aDAO%20Logo%20No%20Background.png"
+        "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/aDAO%20Logo%20No%20Background.png"
       }
     },
     "contracts": {
@@ -367,14 +367,14 @@
       "symbol": "ampLUNA",
       "address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
       "decimals": 6,
-      "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/ampLuna.webp"
+      "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/ampLuna.webp"
     },
     "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml": {
       "name": "BBL bLUNA LSD",
       "symbol": "bLUNA",
       "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
       "decimals": 6,
-      "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/bLUNA.webp"
+      "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/bLUNA.webp"
     },
     "ibc/8D8A7F7253615E5F76CB6252A1E1BD921D5EDB7BBAAF8913FB1C77FF125D9995": {
       "name": "Terra Astro",
@@ -388,7 +388,7 @@
       "symbol": "LUNA",
       "address": "uluna",
       "decimals": 6,
-      "logo": "https://github.com/defipatriot/aDAO-Image-Files/blob/main/Luna.webp"
+      "logo": "https://raw.githubusercontent.com/defipatriot/aDAO-Image-Files/main/Luna.webp"
     },
     "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB": {
       "name": "Terra USDC",
