@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2025-10-27",
+  "last_updated": "2025-10-28",
   "members": {
     "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw": {
       "handle": "DeFiPatriot",
@@ -381,7 +381,7 @@
       "symbol": "ASTRO",
       "address": "ibc/8D8A7F7253615E5F76CB6252A1E1BD921D5EDB7BBAAF8913FB1C77FF125D9995",
       "decimals": 6,
-      "logo": "https://github.com/defipatriot/token_logo/blob/main/Astro.webp"
+      "logo": "https://raw.githubusercontent.com/defipatriot/token_logo/main/Astro.webp"
     },
     "uluna": {
       "name": "Terra LUNA",
@@ -395,35 +395,36 @@
       "symbol": "USDC",
       "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
       "decimals": 6,
-      "logo": "https://github.com/defipatriot/token_logo/blob/main/usdc.svg"
+      "logo": "https://raw.githubusercontent.com/defipatriot/token_logo/main/usdc.svg"
     },
     "terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar": {
       "name": "Capapult",
       "symbol": "CAPA",
       "address": "terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar",
       "decimals": 6,
-      "logo": "https://github.com/defipatriot/token_logo/blob/main/capa.svg"
+      "logo": "https://raw.githubusercontent.com/defipatriot/token_logo/main/capa.svg"
     },
     "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv": {
       "name": "Lion DAO ROAR",
       "symbol": "ROAR",
       "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
       "decimals": 6,
-      "logo": "https://github.com/defipatriot/token_logo/blob/main/ROAR_LOGO.png"
+      "logo": "https://raw.githubusercontent.com/defipatriot/token_logo/main/ROAR_LOGO.png"
     },
     "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2": {
       "name": "Terra ATOM",
       "symbol": "ATOM",
       "address": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
       "decimals": 6,
-      "logo": "https://github.com/defipatriot/token_logo/blob/main/atom.svg"
+      "logo": "https://raw.githubusercontent.com/defipatriot/token_logo/main/atom.svg"
     },
     "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB": {
       "name": "Eureka wBTC",
       "symbol": "wBTC.atom",
       "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
       "decimals": 8,
-      "logo": "https://github.com/defipatriot/token_logo/blob/main/wBTC.png"
+      "logo": "https://raw.githubusercontent.com/defipatriot/token_logo/main/wBTC.png"
     }
-  }
+  },
+  "known_blocks": {}
 }
