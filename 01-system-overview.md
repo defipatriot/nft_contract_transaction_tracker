@@ -95,17 +95,16 @@ Explorer Interface (HTML/JS)
 
 ## Transaction Event Types
 
-The system currently tracks **25 distinct event types** across 7 categories:
+The system currently tracks **24 distinct event types** across 7 categories:
 
 ### 1. Core Protocol Events (3)
 - `ALLIANCE_CLAIM` - Daily reward claims
 - `CLAIM_FAILED` - Failed claim attempts  
 - `BREAK` - NFT destruction for rewards
 
-### 2. DAODao Governance (3)
+### 2. DAODao Governance (2)
 - `DAODAO_STAKE` - Lock NFTs for voting
-- `DAODAO_UNSTAKE` - Begin 7-day unbonding
-- `DAODAO_CLAIM_NFTS` - Claim after unbonding
+- `DAODAO_UNSTAKE` - Return NFTs from staking (includes unstake & claim_nfts)
 
 ### 3. BBL Marketplace (4)
 - `BBL_LISTING` - List for sale (bLUNA)

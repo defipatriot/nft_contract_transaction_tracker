@@ -9,7 +9,7 @@
 
 ## Overview
 
-This document explains how the Explorer detects and classifies the 25+ different transaction types. Each event has unique identifiers that allow reliable detection from blockchain transaction data.
+This document explains how the Explorer detects and classifies the 24+ different transaction types. Each event has unique identifiers that allow reliable detection from blockchain transaction data.
 
 ---
 
@@ -175,10 +175,16 @@ The system checks patterns in this order for maximum reliability:
 ### 5. DAODao Unstake
 **Event Type:** `DAODAO_UNSTAKE`
 
-#### Detection Logic
+**IMPORTANT:** This event type covers BOTH unstaking operations:
+1. **Manual Unstake** - Begins 7-day unbonding period
+2. **Claim NFTs** - Completes unbonding and returns NFTs to owner
+
+Both operations return NFTs from staking and are treated as the same event type.
+
+#### Detection Logic - Method 1: Manual Unstake
 ```javascript
 {
-  contract: "terra1c57ur376...",
+  contract: "terra1c57ur376...",  // DAODao staking
   msg: {
     unstake: {
       token_ids: ["1033", "6748", "2941"]  // ARRAY format
@@ -188,81 +194,64 @@ The system checks patterns in this order for maximum reliability:
 }
 ```
 
+#### Detection Logic - Method 2: Claim NFTs
+```javascript
+{
+  contract: "terra1c57ur376...",  // DAODao staking
+  msg: { claim_nfts: {} },        // Empty object
+  action: "claim_nfts"
+  // NFT IDs ONLY in events, NOT in message!
+}
+
+// NFT IDs extracted from transfer_nft events:
+tx.events.forEach(event => {
+  if (event.type === "wasm" && 
+      event.action === "transfer_nft" &&
+      event.sender === DAODAO_STAKING_CONTRACT) {
+    tokenIds.push(event.token_id);
+  }
+});
+```
+
+#### Code Implementation
+```javascript
+// Both patterns map to same event type:
+if (isDaoDao) {
+    if (rawStr.includes('claim_nfts') || rawStr.includes('unstake')) {
+        // claim_nfts is functionally unstaking - returns NFTs to owner
+        return 'DAODAO_UNSTAKE';
+    }
+}
+```
+
 #### Important Notes
-- âœ… **ALWAYS array format** - even single NFT
-- âš ï¸ NFTs enter 7-day unbonding period
-- âš ï¸ Must call `claim_nfts` after unbonding ends
+- ✅ **ALWAYS array format** for manual unstake
+- ✅ **Event extraction** required for claim_nfts
+- ⚠️ Manual unstake begins 7-day unbonding period
+- ⚠️ Claim_nfts completes the unbonding (returns NFTs)
 
 #### What Explorer Shows
 ```javascript
 {
   emoji: "🔓",
   badge: "DAO Unstake",
-  explanation: "Begin 7-day unbonding period for staked NFTs",
-  detectionMethod: "Looks for unstake message with token_ids array",
-  keyIndicator: "token_ids array + 604800 second unbonding duration",
-  note: "Must claim after 7 days to receive NFTs back"
+  explanation: "NFT returned from DAO staking to owner",
+  detectionMethod: "Looks for unstake or claim_nfts message from DAODao contract",
+  keyIndicator: "NFT transfers FROM DAODao staking TO owner",
+  note: "Supports both manual unstake and claim_nfts operations"
 }
 ```
 
----
-
-### 6. DAODao Claim NFTs
-**Event Type:** `DAODAO_CLAIM_NFTS`
-
-#### Detection Logic
-```javascript
-{
-  contract: "terra1c57ur376...",
-  msg: { claim_nfts: {} },  // Empty object
-  action: "claim_nfts"
-  // NFT IDs ONLY in events, NOT in message!
-}
-```
-
-#### Critical Extraction Pattern
-```javascript
-// NFT IDs are NOT in the message
-// Must extract from events:
-function extractClaimedNFTs(tx) {
-  const tokenIds = [];
-  tx.events.forEach(event => {
-    if (event.type === "wasm") {
-      let tokenId, action, sender;
-      event.attributes.forEach(attr => {
-        if (attr.key === "token_id") tokenId = attr.value;
-        if (attr.key === "action") action = attr.value;
-        if (attr.key === "sender") sender = attr.value;
-      });
-      
-      // Only count transfer_nft FROM staking contract
-      if (action === "transfer_nft" && 
-          sender === DAODAO_STAKING_CONTRACT) {
-        tokenIds.push(tokenId);
-      }
-    }
-  });
-  return [...new Set(tokenIds)];  // Deduplicate
-}
-```
-
-#### What Explorer Shows
-```javascript
-{
-  emoji: "✅",
-  badge: "DAO Claim",
-  explanation: "Complete unbonding - receive NFTs back after 7 days",
-  detectionMethod: "Looks for claim_nfts message + transfer events from staking",
-  keyIndicator: "NFT transfers FROM DAODao staking contract TO claimer",
-  note: "Claims all unbonded NFTs at once"
-}
-```
+**Example Transactions:**
+- Manual unstake: `https://chainsco.pe/terra2/tx/[unstake_hash]`
+- Claim NFTs: `https://chainsco.pe/terra2/tx/79855D6B36FA407A5E8AC940891E888B04742A6F5D18B08122F5093174B46A0E`
 
 ---
 
 ## BBL Marketplace Events
 
-### 7. BBL Listing
+### 6. BBL Listing
+### 6. BBL Listing
 **Event Type:** `BBL_LISTING`
 
 #### Detection Logic

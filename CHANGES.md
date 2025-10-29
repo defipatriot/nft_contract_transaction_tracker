@@ -14,6 +14,49 @@ The old documentation was created **before the current explorer was fully built*
 
 ## 📊 Major Changes
 
+### V6 Update: Event Type Consolidation (October 29, 2025)
+
+**Changed:** `DAODAO_CLAIM_NFTS` merged into `DAODAO_UNSTAKE`
+
+**Why This Change Was Made:**
+- `DAODAO_CLAIM_NFTS` was incorrectly classified as a reward claim (had "CLAIM" in the name)
+- Got filtered out when "Hide Rewards" toggle was enabled
+- Showed 💰 reward bag icon instead of NFT thumbnail
+- But it's actually an NFT operation (returning NFTs from staking to owner)
+
+**Impact:**
+- ✅ Total event types: 25 → 24
+- ✅ Shows NFT thumbnails (not reward bag)
+- ✅ Visible when rewards are hidden
+- ✅ Clearer event classification
+- ✅ Better filtering behavior
+
+**Technical Details:**
+```javascript
+// Before:
+if (rawStr.includes('claim_nfts')) {
+    return 'DAODAO_CLAIM_NFTS';  // Separate event type
+}
+if (rawStr.includes('unstake')) {
+    return 'DAODAO_UNSTAKE';
+}
+
+// After:
+if (rawStr.includes('claim_nfts') || rawStr.includes('unstake')) {
+    // Both are unstaking operations - return NFTs to owner
+    return 'DAODAO_UNSTAKE';
+}
+```
+
+**Example Transaction:**
+`79855D6B36FA407A5E8AC940891E888B04742A6F5D18B08122F5093174B46A0E` (6 NFTs unstaked via claim_nfts)
+
+**Documentation Updates:**
+- Part 1: System Overview - Updated event count, DAODAO section
+- Part 2: Event Detection - Merged sections, updated examples
+
+---
+
 ### 1. NEW: Currency Display System
 **Old Docs:** Did not exist  
 **New Docs:** Complete documentation of 3-mode toggle
